@@ -1,0 +1,30 @@
+using System.Collections.Generic;
+
+namespace PriorityQueue
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            PriorityQueue<int> numbers = new PriorityQueue<int>
+
+            numbers.Enqueue(1);
+            numbers.Enqueue(2);
+            numbers.Enqueue(3);
+            numbers.Enqueue(4);
+            numbers.Enqueue(5);
+            //These will be displayed from highest to lowest
+
+            Console.WriteLine("----");
+
+            PriorityQueue<String> letters = new PriorityQueue<String>
+
+            letters.Enqueue(A);
+            letters.Enqueue(B);
+            letters.Enqueue(C);
+            letters.Enqueue(D);
+            letters.Enqueue(E);
+            //These will be displayed in alphabetical order
+        }
+    }
+}
