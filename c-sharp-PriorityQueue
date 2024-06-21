@@ -6,7 +6,7 @@ namespace PriorityQueue
     {
         static void Main(string[] args)
         {
-            PriorityQueue<int> numbers = new PriorityQueue<int>
+            PriorityQueue<int> numbers = new PriorityQueue<int>();
 
             numbers.Enqueue(1);
             numbers.Enqueue(2);
@@ -17,7 +17,7 @@ namespace PriorityQueue
 
             Console.WriteLine("----");
 
-            PriorityQueue<String> letters = new PriorityQueue<String>
+            PriorityQueue<String> letters = new PriorityQueue<String>();
 
             letters.Enqueue(A);
             letters.Enqueue(B);
